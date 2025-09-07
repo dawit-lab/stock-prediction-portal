@@ -65,10 +65,7 @@ const Register = () => {
                     {loading ? (
                       <button type="submit" className='btn btn-primary w-100' disabled> <FontAwesomeIcon icon={faSpinner} spin/> Please wait</button>):
                       (<button type="submit" className='btn btn-primary w-100'>Register</button> )
-                    //    ( <button className='btn btn-primary w-100' type='button' disabled>
-                    //         <span className='spinner-border spinner-border-sm' role='status' aria-hidden='true'></span>
-                    //         &nbsp; Registering...  
-                    // )
+                    
                     
                 }
                    

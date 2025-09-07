@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Register from './components/Register'
 import Login from './components/Login'
 import {BrowserRouter as Router, Route, Routes, BrowserRouter} from 'react-router-dom'
+import AuthProvider from './AuthProvider'
 
 
 
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <>
-     
+      <AuthProvider>
       <BrowserRouter>
       <Header />
         <Routes>
@@ -24,6 +25,7 @@ function App() {
         </Routes>
       <Footer />
       </BrowserRouter>
+      </AuthProvider>
       
       
      
